@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JMLocation_Example' do
+  pod 'JMLocation', :path => '../'
+
+  target 'JMLocation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
