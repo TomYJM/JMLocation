@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMLocation'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of JMLocation.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/yang13026165706@163.com/JMLocation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yang13026165706@163.com' => 'jinming.yang@inin88.com' }
+  s.author           = { 'daxiami007' => 'yang13026165706@163.com' }
   s.source           = { :git => 'https://github.com/yang13026165706@163.com/JMLocation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JMLocation/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JMLocation' => ['JMLocation/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'JMLocation' => ['JMLocation/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit', 'QuartzCore', 'CoreLocation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
