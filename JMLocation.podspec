@@ -33,10 +33,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'JMLocation/Classes/**/*'
   
   s.resource_bundles = {
-    'JMLocation' => ['JMLocation/Assets/*.png']
+    'JMLocation' => ['JMLocation/Assets/location.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit', 'QuartzCore', 'CoreLocation'
+  s.public_header_files = 'Pod/Classes/JMLocation.h'
+  s.frameworks = 'UIKit', 'MapKit', 'CoreLocation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
